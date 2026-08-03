@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register Your Interest — Kaspersky Small Office Security | eCAPS Partner Programme</title>
+<meta name="description" content="South India channel partners: register your interest in selling Kaspersky Small Office Security (KSOS) with eCAPS. Regional support across seven cities.">
+<meta property="og:title" content="Kaspersky Small Office Security — Partner Opportunity | eCAPS">
+<meta property="og:description" content="Register your interest in KSOS. Enterprise-grade small-business security, backed by eCAPS regional teams across South India.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sureshg18.github.io/landing-pages/">
+<style>
+  :root {
+    --teal: #009982;
+    --teal-dark: #007a68;
+    --ink: #1a1a2e;
+    --grey: #444a54;
+    --bg: #f2f4f5;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--grey); line-height: 1.6; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  header { background: #fff; border-bottom: 4px solid var(--teal); }
+  .header-inner { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
+  .header-inner img { height: 40px; width: auto; }
+  .brand-right { text-align: right; }
+  .brand-right .status { color: var(--teal); font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; font-size: 10px; display: block; margin-bottom: 4px; }
+  .brand-right img.ecaps { height: 34px; }
+  .hero { background: #fff; padding: 56px 0 48px; }
+  .hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: start; }
+  .eyebrow { color: var(--teal); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 13px; margin: 0 0 10px; }
+  h1 { color: var(--ink); font-size: 34px; line-height: 1.25; margin: 0 0 16px; }
+  .lead { font-size: 17px; margin: 0 0 24px; }
+  .features { margin: 0; padding: 0; list-style: none; }
+  .features li { padding: 10px 0 10px 32px; position: relative; font-size: 15px; }
+  .features li::before { content: "\2713"; position: absolute; left: 0; top: 10px; color: var(--teal); font-weight: 700; font-size: 18px; }
+  .features strong { color: var(--ink); }
+  .card { background: #fff; border: 1px solid #e4ecea; border-radius: 10px; padding: 28px; box-shadow: 0 4px 18px rgba(0,0,0,.06); }
+  .card h2 { margin: 0 0 6px; color: var(--ink); font-size: 21px; }
+  .card p.sub { margin: 0 0 20px; font-size: 14px; }
+  label { display: block; font-weight: 600; color: var(--ink); font-size: 14px; margin: 14px 0 6px; }
+  input, select, textarea { width: 100%; padding: 11px 12px; border: 1px solid #cfd6d4; border-radius: 6px; font: inherit; font-size: 15px; }
+  input:focus, select:focus, textarea:focus { outline: 3px solid rgba(0,153,130,.25); border-color: var(--teal); }
+  .btn { display: inline-block; width: 100%; margin-top: 22px; background: var(--teal); color: #fff; font-weight: 700; font-size: 16px; padding: 14px; border: 0; border-radius: 6px; cursor: pointer; }
+  .btn:hover { background: var(--teal-dark); }
+  .privacy { font-size: 12px; color: #6b7280; margin-top: 14px; }
+  .strip { background: var(--ink); color: #c9d1d9; padding: 36px 0; }
+  .strip h2 { color: #fff; margin: 0 0 8px; font-size: 20px; }
+  .strip p { margin: 0; max-width: 720px; }
+  .contacts { background: #f7fbfa; padding: 44px 0 52px; }
+  .contacts h2 { color: var(--ink); font-size: 22px; margin: 0 0 20px; }
+  .contact-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+  .contact { background: #fff; border: 1px solid #e4ecea; border-radius: 8px; padding: 14px 16px; font-size: 14px; }
+  .contact strong { color: var(--ink); display: block; margin-bottom: 2px; }
+  .contact a { color: var(--teal); text-decoration: none; }
+  footer { background: #fff; border-top: 1px solid #e8eaed; padding: 26px 0 34px; font-size: 12px; color: #9aa0a6; }
+  footer .team { font-size: 14px; color: var(--ink); font-weight: 700; margin: 0 0 2px; }
+  footer a { color: var(--teal); text-decoration: none; }
+  .price-box { display: none; margin-top: 14px; border: 1px solid #bfe3d8; background: #f1faf7; border-radius: 8px; padding: 14px 16px; }
+  .price-box.show { display: block; }
+  .price-box .pack { font-size: 13px; font-weight: 700; color: var(--teal-dark); letter-spacing: 0.5px; text-transform: uppercase; margin: 0 0 2px; }
+  .price-box .amount { font-size: 26px; font-weight: 800; color: var(--ink); margin: 0; }
+  .price-box .amount small { font-size: 13px; font-weight: 600; color: #6b7280; }
+  .price-box .inc { font-size: 13px; color: var(--grey); margin: 4px 0 0; }
+  .price-box .note { font-size: 11px; color: #9aa0a6; margin: 8px 0 0; }
+  .price-box.custom .amount { font-size: 18px; }
+  @media (max-width: 860px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    h1 { font-size: 27px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap header-inner">
+    <img src="https://raw.githubusercontent.com/sureshg18/brand-assets/main/Kaspersky%20logo-01.png" alt="Kaspersky">
+    <div class="brand-right">
+      <span class="status">KSOS &ndash; South Partner</span>
+      <img class="ecaps" src="https://raw.githubusercontent.com/sureshg18/brand-assets/main/ecaps_logo_web.png" alt="eCAPS">
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Introducing &bull; Kaspersky Small Office Security</p>
+      <h1>Your easiest security sale is the small business with no IT team.</h1>
+      <p class="lead">Kaspersky Small Office Security (KSOS) is built for the customers you already serve — small offices running Windows and Mac PCs, Android devices and a Windows file server, with nobody managing security.</p>
+      <ul class="features">
+        <li><strong>Ransomware protection, vulnerability scans and web control</strong> — the risks every small business already worries about, in one product.</li>
+        <li><strong>Safe Money</strong> — added protection for online payments and banking.</li>
+        <li><strong>Windows, Mac, Android and Windows file servers</strong> — one SKU covers the whole small-office environment.</li>
+        <li><strong>One simple dashboard</strong> — no IT team, no extra hardware, no dedicated admin.</li>
+        <li><strong>30-day no-cost test drive</strong> from Kaspersky to open customer conversations.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Register Your Interest</h2>
+      <p class="sub">Your regional eCAPS team will contact you with the next steps.</p>
+      <!-- Submissions POST to the eCAPS Google Apps Script endpoint (Google Sheet + email). -->
+      <form id="ksos-form">
+        <label for="name">Your name *</label>
+        <input id="name" name="name" type="text" required autocomplete="name">
+
+        <label for="company">Company *</label>
+        <input id="company" name="company" type="text" required autocomplete="organization">
+
+        <label for="email">Business email *</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+
+        <label for="phone">Mobile number *</label>
+        <input id="phone" name="phone" type="tel" required autocomplete="tel">
+
+        <label for="city">Nearest eCAPS region *</label>
+        <select id="city" name="region" required>
+          <option value="">Select region</option>
+          <option>Hyderabad</option>
+          <option>Chennai</option>
+          <option>Bangalore</option>
+          <option>Cochin</option>
+          <option>Coimbatore</option>
+          <option>Madurai</option>
+          <option>Vizag</option>
+          <option>Other</option>
+        </select>
+
+        <label for="computers">How many computers does your office run? *</label>
+        <select id="computers" name="computers" required>
+          <option value="">Select number of computers</option>
+          <option value="5">1 &ndash; 5</option>
+          <option value="10">6 &ndash; 10</option>
+          <option value="15">11 &ndash; 15</option>
+          <option value="20">16 &ndash; 20</option>
+          <option value="25">21 &ndash; 25</option>
+          <option value="more">More than 25</option>
+        </select>
+
+        <div class="price-box" id="price-box">
+          <p class="pack" id="pb-pack"></p>
+          <p class="amount" id="pb-amount"></p>
+          <p class="inc" id="pb-inc"></p>
+          <p class="note"><strong>All prices are exclusive of 18% GST.</strong> 1-year subscription per pack. Free shipping. * Conditions apply.</p>
+        </div>
+
+        <label for="message">Anything you'd like to tell us? (optional)</label>
+        <textarea id="message" name="message" rows="3"></textarea>
+
+        <button class="btn" type="submit">Register Your Interest &rarr;</button>
+        <p class="privacy">We use these details only to contact you about the KSOS partner opportunity.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="strip">
+  <div class="wrap">
+    <h2>Sell it with eCAPS behind you.</h2>
+    <p>As your Kaspersky partner in India, eCAPS supports you with pre-sales guidance, licensing assistance and regional teams in seven cities across South India — so you can position, quote and close faster.</p>
+  </div>
+</section>
+
+<section class="contacts">
+  <div class="wrap">
+    <h2>Prefer to talk? Reach your regional eCAPS team</h2>
+    <div class="contact-grid">
+      <div class="contact"><strong>Hyderabad</strong><a href="tel:+919052100063">+91 90521 00063</a><br><a href="mailto:saleshyd@caps.in">saleshyd@caps.in</a></div>
+      <div class="contact"><strong>Chennai</strong><a href="tel:+919942922174">+91 99429 22174</a><br><a href="mailto:saleschn1@caps.in">saleschn1@caps.in</a></div>
+      <div class="contact"><strong>Bangalore</strong><a href="tel:+919844919333">+91 98449 19333</a><br><a href="mailto:sarala@caps.in">sarala@caps.in</a></div>
+      <div class="contact"><strong>Cochin</strong><a href="tel:+918075913024">+91 80759 13024</a><br><a href="mailto:salesekm@caps.in">salesekm@caps.in</a></div>
+      <div class="contact"><strong>Coimbatore</strong><a href="tel:+919942922997">+91 99429 22997</a><br><a href="mailto:krishna@caps.in">krishna@caps.in</a></div>
+      <div class="contact"><strong>Madurai</strong><a href="tel:+919942922668">+91 99429 22668</a><br><a href="mailto:gps@caps.in">gps@caps.in</a></div>
+      <div class="contact"><strong>Vizag</strong><a href="tel:+918886000459">+91 88860 00459</a><br><a href="mailto:vijaykv@caps.in">vijaykv@caps.in</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="team">eCAPS &ndash; Marketing Team</p>
+    <p>eCAPS Computers India Pvt. Ltd. &bull; <a href="https://www.caps.in">www.caps.in</a></p>
+    <p>* Conditions apply. All prices shown are exclusive of 18% GST (GST extra as applicable), indicative, and subject to confirmation by eCAPS at the time of order. Kaspersky and the Kaspersky logo are trademarks of AO Kaspersky Lab. Product features referenced from official Kaspersky sources.</p>
+  </div>
+</footer>
+
+<script>
+  // Submissions go to the eCAPS Google Apps Script endpoint (Google Sheet + email).
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycby106jH7T4DLir347pWprGO0AMwW43SCncD9aFYlfbCE1flgA7tlohLiOMEF2eitZvlZg/exec";
+
+  // KSOS pack pricing (MOP + 25%; all prices EXCLUSIVE of 18% GST)
+  const PACKS = {
+    "5":  { label: "5-user pack",  c: 5,  s: 1, m: 5,  price: 3625.00 },
+    "10": { label: "10-user pack", c: 10, s: 1, m: 10, price: 5125.00 },
+    "15": { label: "15-user pack", c: 15, s: 2, m: 15, price: 6750.00 },
+    "20": { label: "20-user pack", c: 20, s: 2, m: 20, price: 8125.00 },
+    "25": { label: "25-user pack", c: 25, s: 3, m: 25, price: 9625.00 }
+  };
+
+  const computersSel = document.getElementById("computers");
+  const priceBox = document.getElementById("price-box");
+  const pbPack = document.getElementById("pb-pack");
+  const pbAmount = document.getElementById("pb-amount");
+  const pbInc = document.getElementById("pb-inc");
+
+  computersSel.addEventListener("change", function () {
+    const v = this.value;
+    if (!v) { priceBox.classList.remove("show"); return; }
+    if (v === "more") {
+      priceBox.classList.add("show", "custom");
+      pbPack.textContent = "Custom requirement";
+      pbAmount.textContent = "We’ll prepare a special quote for you";
+      pbInc.textContent = "For more than 25 computers, your regional eCAPS team will call you with the best combination and price.";
+      return;
+    }
+    const p = PACKS[v];
+    priceBox.classList.remove("custom");
+    priceBox.classList.add("show");
+    pbPack.textContent = "Recommended: KSOS " + p.label;
+    pbAmount.innerHTML = "₹" + p.price.toLocaleString("en-IN", { minimumFractionDigits: 2 }) + " <small>+ 18% GST extra</small>";
+    pbInc.textContent = "Covers " + p.c + " computers + " + p.s + " file server" + (p.s > 1 ? "s" : "") + " + " + p.m + " mobile devices.";
+  });
+
+  document.getElementById("ksos-form").addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const submitBtn = document.querySelector(".btn");
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = "Submitting...";
+
+    const compVal = document.getElementById("computers").value;
+    const compText = document.getElementById("computers").selectedOptions[0] ? document.getElementById("computers").selectedOptions[0].text : "";
+    const quoted = (compVal && compVal !== "more" && PACKS[compVal])
+      ? "KSOS " + PACKS[compVal].label + " @ ₹" + PACKS[compVal].price.toLocaleString("en-IN", { minimumFractionDigits: 2 }) + " excl. 18% GST"
+      : (compVal === "more" ? "More than 25 computers — custom quote requested" : "");
+
+    const formData = {
+      name: document.getElementById("name").value.trim(),
+      company: document.getElementById("company").value.trim(),
+      email: document.getElementById("email").value.trim(),
+      mobile: document.getElementById("phone").value.trim(),
+      region: document.getElementById("city").value,
+      computers: compText,
+      quotedPrice: quoted,
+      message: document.getElementById("message").value.trim()
+    };
+
+    try {
+      // Note: body is JSON, but sent as text/plain so the browser makes a
+      // "simple" CORS request (Apps Script cannot answer preflight OPTIONS).
+      // Apps Script still reads it via JSON.parse(e.postData.contents).
+      const response = await fetch(SCRIPT_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8"
+        },
+        body: JSON.stringify(formData)
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        alert("Thank you! Your registration has been submitted successfully. Our team will contact you shortly.");
+        document.getElementById("ksos-form").reset();
+      } else {
+        alert("Submission failed.\n\n" + (result.error || ""));
+      }
+    } catch (err) {
+      alert("Unable to submit the form.\n\nPlease try again later.");
+      console.error(err);
+    }
+
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = "Register Your Interest →";
+  });
+</script>
+
+</body>
+</html>
